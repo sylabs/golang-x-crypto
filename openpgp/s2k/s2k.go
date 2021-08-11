@@ -4,11 +4,16 @@
 
 // Package s2k implements the various OpenPGP string-to-key transforms as
 // specified in RFC 4800 section 3.7.1.
-
+//
 // Modifications from patches written by:
 //    Fan Jiang <fanjiang@thoughtworks.com> and
 //    Sofia Celi <sceli@thoughtworks.com>
-
+//
+// Deprecated: this package is unmaintained except for security fixes. New
+// applications should consider a more focused, modern alternative to OpenPGP
+// for their specific task. If you are required to interoperate with OpenPGP
+// systems and need a maintained package, consider a maintained community fork.
+// See https://golang.org/issue/37497.
 package s2k // import "golang.org/x/crypto/openpgp/s2k"
 
 import (
